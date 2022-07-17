@@ -1,0 +1,352 @@
+{
+  "Furniture": {
+    "Living Room": [
+      "All Living Room",
+      "Sectionals",
+      "Sofas & Loveseats",
+      "Chairs",
+      "Coffee Tables",
+      "Side Tables",
+      "Console Tables",
+      "Ottomans & Stools",
+      "TV & Media Stands",
+      "Bookcases"
+    ],
+    "Bedroom": [
+      "All Bedroom",
+      "Beds",
+      "Headboards",
+      "Nightstands",
+      "Dressers",
+      "Mattresses",
+      "Benches"
+    ],
+    "Dining & Kitchen": [
+      "All Dining & Kitchen",
+      "Dining Tables",
+      "Dining Chairs",
+      "Bar & Counter Stools",
+      "Dining Benches",
+      "Buffet Tables",
+      "Kitchen Furniture"
+    ],
+    "Home Office": ["All Office", "Desks", "Desk Chairs"],
+    "Space Solutions": [
+      "Small Space Solutions",
+      "Contract Grade Furniture",
+      "Linen Shop"
+    ]
+  },
+  "Outdoor & Garden": {
+    "Outdoor Lounge Furniture": [
+      "All Outdoor Lounge Furniture",
+      "Sectionals",
+      "Sofas",
+      "Chairs & Loungers",
+      "Coffee Tables",
+      "Side Tables",
+      "Outdoor Storage",
+      "Patio Lounge Sets"
+    ],
+    "Outdoor Dining Furniture": [
+      "All Outdoor Dining Furniture",
+      "Dining Tables",
+      "Dining Chairs & Benches",
+      "Kitchen & Bar",
+      "Patio Dining Sets"
+    ],
+    "Outdoor Accessories & Decor": [
+      "All Outdoor Accessories & Decor",
+      "Rugs",
+      "Pillows",
+      "Umbrellas",
+      "Patio Heating",
+      "Curtains",
+      "Outdoor Recreation",
+      "Front Door Decor",
+      "Lighting & Lanterns",
+      "Dining & Entertaining"
+    ],
+    "Garden": [
+      "All Garden",
+      "Outdoor Planters",
+      "Indoor Planters",
+      "Plants & Trees",
+      "Stems, Branches & Bouquets",
+      "Garden Decor & Accessories"
+    ],
+    "Outdoor Solutions": [
+      "Furniture Covers",
+      "Furniture Cushions",
+      "In Stock & Ready To Ship"
+    ]
+  },
+  "Rugs": {
+    "Rugs By Category": [
+      "Area Rugs",
+      "Indoor/Outdoor Rugs",
+      "Entryway & Kitchen Rugs",
+      "Hallway Runners",
+      "Doormats"
+    ],
+    "Rugs By Style": [
+      "All Rugs",
+      "Patterned Rugs",
+      "Solid Rugs",
+      "Modern & Abstract Rugs",
+      "Shag Rugs",
+      "Moroccan-Inspired Rugs",
+      "Persian-Style Rugs"
+    ],
+    "Rugs By Material": ["Natural Rugs", "Performance Rugs", "Wool Rugs"],
+    "Rug Solutions": ["Custom Rugs", "Rug Pads", "In Stock & Ready To Ship"]
+  },
+  "Bedding": {
+    "Bedding by Category": [
+      "All Bedding",
+      "Duvet Covers & Shams",
+      "Sheet Sets & Pillowcases",
+      "Quilts",
+      "Comforters",
+      "Blankets & Throws",
+      "Bedding Bundles"
+    ],
+    "Bedding Essentials": [
+      "All Bedding Essentials",
+      "Duvet Inserts",
+      "Pillow Inserts",
+      "Bed Skirts & Covers",
+      "Mattress Pads & Toppers"
+    ],
+    "Bedding by Fabric": [
+      "Linen",
+      "TENCEL™",
+      "Cotton",
+      "Velvet",
+      "Jersey",
+      "Percale",
+      "Gauze"
+    ],
+    "Bedding by Color": ["White", "Blue", "Gray", "Green"],
+    "Bedding Solutions": ["Bedding Looks", "In Stock & Ready To Ship"]
+  },
+  "Bath": {
+    "Bath Linens": [
+      "All Bath Linens",
+      "Towels",
+      "Towel Sets",
+      "Bath Mats",
+      "Shower Curtains",
+      "Beach Towels"
+    ],
+    "Bathroom Renovation": [
+      "All Bathroom Renovation",
+      "Vanities & Faucets",
+      "Hardware",
+      "Furniture",
+      "Medicine Cabinets & Mirrors",
+      "Bathtubs",
+      "Cabinets & Shelving"
+    ],
+    "Bathroom Accessories & Storage": [
+      "All Accessories & Storage",
+      "Storage & Organization",
+      "Countertop Accessories"
+    ],
+    "Bathroom Essentials": [
+      "Robes & Home Spa",
+      "Candles & Home Fragrance",
+      "In Stock & Ready To Ship"
+    ]
+  },
+  "Lighting": {
+    "Ceiling Lighting": [
+      "All Ceiling Lighting",
+      "Chandeliers",
+      "Pendants",
+      "Flushmounts",
+      "Ceiling Fans"
+    ],
+    "All Lighting": [
+      "All Lighting",
+      "Sconces",
+      "Table & Desk Lamps",
+      "Floor Lamps"
+    ],
+    "Lighting by Room": [
+      "Bedroom",
+      "Dining & Kitchen",
+      "Living Room",
+      "Bathroom & Vanity",
+      "Outdoor"
+    ],
+    "Lighting Solutions": [
+      "Light Bulbs & Accessories",
+      "In Stock & Ready To Ship"
+    ]
+  },
+  "Pillows & Decor": {
+    "Pillows, Throws & Poufs": [
+      "All Pillows, Throws & Poufs",
+      "Pillows",
+      "Throws",
+      "Outdoor Pillows",
+      "Poufs & Floor Pillows",
+      "Pillow Sets"
+    ],
+    "Room Decor": [
+      "All Room Decor",
+      "Vases",
+      "Decorative Objects",
+      "Picture Frames",
+      "Decorative Trays & Bowls",
+      "Jewelry Boxes",
+      "Books & Bookends",
+      "Hearth & Fireplace"
+    ],
+    "Plants & Planters": [
+      "All Planters",
+      "Indoor Planters",
+      "Outdoor Planters",
+      "Plants & Trees",
+      "Stems, Branches & Bouquets"
+    ],
+    "Candlelight & Home Fragrance": [
+      "Candles & Home Fragrance",
+      "Lanterns & Candleholders"
+    ],
+    "Space Solutions": [
+      "Locally Made Pillows & Decor",
+      "In Stock & Ready To Ship"
+    ]
+  },
+  "Window": {
+    "Curtains": [
+      "All Curtains",
+      "Solid Curtains",
+      "Linen Curtains",
+      "Blackout Curtains",
+      "Velvet Curtains",
+      "Sheer Curtains",
+      "Patterned Curtains"
+    ],
+    "Window Hardware": ["All Curtain Rods & Hardware"],
+    "Design Resources": ["In Stock & Ready To Ship"]
+  },
+  "Art & Mirrors": {
+    "Mirrors": [
+      "All Mirrors",
+      "Wall Mirrors",
+      "Floor Mirrors",
+      "Decorative Mirrors"
+    ],
+    "Art by Type": [
+      "All Art",
+      "Art Pairs & Sets",
+      "Paintings",
+      "Dimensional Art",
+      "Fabric Art & Wall Hangings",
+      "Photography"
+    ],
+    "Art by Subject": [
+      "Abstract Art",
+      "Geometric Art",
+      "Landscapes & Seascapes",
+      "Botanicals",
+      "Animals",
+      "Portraits & Figures",
+      "Travel & Architecture"
+    ],
+    "Wall Organization & Decor": [
+      "Shelves & Display Ledges",
+      "Wall Organization & Hooks",
+      "Wallpaper & Paneling",
+      "Clocks"
+    ],
+    "Design Resources": ["In Stock & Ready To Ship"]
+  },
+  "Kitchen & Dining": {
+    "Dinnerware": [
+      "All Dinnerware",
+      "Dinnerware Sets",
+      "Dinner Plates",
+      "Salad & Dessert Plates",
+      "Bowls",
+      "Mugs"
+    ],
+    "Glassware & Barware": [
+      "All Glassware & Barware",
+      "Wine & Champagne Glasses",
+      "Cocktail Glasses",
+      "Drinking Glasses",
+      "Bar Tools"
+    ],
+    "Serveware": [
+      "All Serveware",
+      "Serving Trays",
+      "Serving Bowls",
+      "Charcuterie Boards & Knives",
+      "Dessert Stands",
+      "Serving Utensils"
+    ],
+    "Kitchen": [
+      "All Kitchen",
+      "Organization & Food Storage",
+      "Tools & Utensils",
+      "Cutlery & Cutting Boards",
+      "Coffee & Tea Accessories",
+      "Appliances",
+      "Kitchen Towels & Pot Holders",
+      "Cookware & Bakeware"
+    ],
+    "Spring Entertaining": ["Easter Decor", "Ramadan Decor", "Passover Decor"]
+  },
+  "Storage": {
+    "Storage by Category": [
+      "All Home Organization",
+      "Baskets & Bins",
+      "Shelves & Display Ledges",
+      "Wall Hooks",
+      "Laundry Hampers",
+      "Jewelry Storage",
+      "Knobs & Pulls"
+    ],
+    "Storage by Room": [
+      "Entryway",
+      "Closet & Bedroom",
+      "Desk & Office",
+      "Kitchen",
+      "Bathroom"
+    ],
+    "Household Essentials": [
+      "Cleaning Supplies",
+      "Trash Cans",
+      "Pet Accessories",
+      "Luggage & Travel"
+    ],
+    "Space Solutions": ["Small Space", "In Stock & Ready To Ship"]
+  },
+  "Sale": {
+    "Limited Time Offers": [
+      "Up To 50% Off In-Stock, Ready-To-Ship Items",
+      "Up To 40% Off Ready-To-Ship Furniture"
+    ],
+    "Shop All Sale": [
+      "Furniture",
+      "Rugs",
+      "Bedding",
+      "Bath",
+      "Window Treatments",
+      "Room Decor",
+      "Pillows & Throws",
+      "Outdoor & Garden",
+      "Storage & Organization",
+      "Art & Mirrors",
+      "Lighting",
+      "Kitchen & Dining",
+      "Kitchen & Dining Deals Under $20",
+      "Deals Under $20",
+      "All Sale"
+    ]
+  }
+}

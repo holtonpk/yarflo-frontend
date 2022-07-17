@@ -1,0 +1,109 @@
+{
+  "title": "Outdoor Furniture",
+  "products": [
+    {
+      "id": "1343322",
+      "img": "prodimg2.jpg",
+      "title": "4-Piece Rattan Patio Furniture Set, Outdoor Wicker Conversation Sofa with Weather Resistant Cushions and Tempered Glass Tabletop for Lawn Backyard Pool",
+      "salePrice": "543",
+      "compPrice": "764",
+      "rating": "5",
+      "date": "2021-01-18",
+      "color": "Red",
+      "productType": "4-piece",
+      "material": "Wicker",
+      "features": "Weather Resistant"
+    },
+    {
+      "id": "2343242432",
+      "img": "prodimg3.jpg",
+      "title": "Patio PE Wicker Furniture Set 4 Pieces Outdoor Brown Rattan Sectional Conversation Sofa Chair with Storage Box Table and Khaki Cushions",
+      "salePrice": "983",
+      "compPrice": "1022",
+      "rating": "3.3",
+      "date": "2021-12-28",
+      "color": "Blue",
+      "productType": "4-piece",
+      "material": "Wicker",
+      "features": "Storage Box"
+    },
+    {
+      "id": "2342342342",
+      "img": "prodimg6.jpg",
+      "title": "U-MAX 7 Piece Outdoor Patio Furniture Set, PE Rattan Wicker Sofa Set",
+      "salePrice": "9867",
+      "compPrice": "10975",
+      "rating": "4.3",
+      "date": "2022-07-17",
+      "color": "Tan",
+      "productType": "7-piece",
+      "material": "Leather",
+      "features": "Coffee Table"
+    },
+    {
+      "id": "235434543324",
+      "img": "prodimg5.jpg",
+      "title": "LAUSAINT HOME 7 Pieces Patio Furniture Sets,Luxury Outdoor All Weather PE Rattan Wicker Lawn Conversation Sets",
+      "salePrice": "345",
+      "compPrice": "543",
+      "rating": "2.1",
+      "date": "2020-04-30",
+      "color": "Beige",
+      "productType": "7-piece",
+      "material": "Vinyl",
+      "features": "Weather Resistant"
+    },
+    {
+      "id": "87898789890",
+      "img": "prodimg7.jpg",
+      "title": "MAISON ARTS 3-Pieces Outdoor Patio Sectional Wicker Rattan Sofa Set ",
+      "salePrice": "324",
+      "compPrice": "543",
+      "rating": "1.8",
+      "date": "2019-05-04",
+      "color": "Blue",
+      "productType": "3-piece",
+      "material": "Vinyl",
+      "features": "Weather Resistant"
+    },
+    {
+      "id": "6789734798342",
+      "img": "prodimg8.jpg",
+      "title": "Sectional Wicker Rattan Sofa Set",
+      "salePrice": "234",
+      "compPrice": "432",
+      "rating": "4.87",
+      "date": "2020-11-10",
+      "color": "Red",
+      "productType": "3-piece",
+      "material": "Wicker",
+      "features": "Weather Resistant"
+    },
+    {
+      "id": "67438323423",
+      "img": "prodimg5.jpg",
+      "title": "New MAISON ARTS 3-Pieces Outdoor Patio Sectional Wicker Rattan Sofa Set",
+      "salePrice": "1422",
+      "compPrice": "1647",
+      "rating": "2.34",
+      "date": "2021-10-12",
+      "color": "Beige",
+      "productType": "3-piece",
+      "material": "Leather",
+      "features": "Weather Resistant"
+    },
+    {
+      "id": "8543945843",
+      "img": "prodimg3.jpg",
+      "title": "Outdoor Patio Sectional Wicker Rattan Sofa Set ",
+      "salePrice": "1982",
+      "compPrice": "2932",
+      "rating": "3",
+      "date": "2018-02-22",
+      "color": "Blue",
+      "productType": "3-piece",
+      "material": "Leather",
+      "features": "Weather Resistant"
+    }
+  ]
+}

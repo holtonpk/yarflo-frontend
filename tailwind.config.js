@@ -1,0 +1,40 @@
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    colors: {
+      c1: "#445a5c",
+      c2: "#FFCEA2",
+      c3: "#A3BEBE",
+      c4: "#FFFFFF",
+      c1_80: "rgba(68, 90, 92, 0.8);",
+      c1_70: "rgba(68, 90, 92, 0.7);",
+      c1_50: "rgba(68, 90, 92, 0.5);",
+      c3_70: "rgba(163, 190, 190, 0.3);",
+      c2_70: "rgb(255, 206, 162, .5)",
+      c4: "#CDD3D3",
+      t1: "#CDD3D3",
+      t2: "#464E4E",
+      white: "#ffffff",
+      black: "black",
+      black_5: "rgba(0, 0, 0, 0.2)",
+      black_50: "rgba(0, 0, 0, 0.5)",
+      black_80: "rgba(0, 0, 0, 0.8)",
+      white_50: "rgb(255, 255, 255, .3)",
+      white2: "#FAFAFA",
+      red: "red",
+      payPal: "#002F85",
+      eth: "#959ED8",
+      btc: "#F7931A",
+    },
+    extend: {
+      fontFamily: {
+        f2: ["Poppins", "sans-serif"],
+        f1: ["Playfair Display", "serif"],
+      },
+    },
+  },
+  plugins: [],
+};
