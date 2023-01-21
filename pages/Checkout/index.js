@@ -2,25 +2,12 @@ import React from "react";
 import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
 import Quantity from "../../components/Quantity";
-import productData from "../../public/Data/Outdoor_furniture.json";
-import { useState } from "react";
 import Image from "next/image";
-import Price from "../../components/Price";
+
 import Link from "next/link";
-import Carousel from "../../components/Carousel";
-import { useEffect } from "react";
-import { useContext } from "react";
-import { CartContext } from "../_app";
 import { useCart } from "react-use-cart";
 
-import {
-  calculateTotal,
-  calculateTotalSingle,
-  getProductData,
-  moneyFormat,
-  deleteItem,
-  getImage,
-} from "../../components/logic";
+import { moneyFormat, getImage } from "../../components/logic";
 import {
   SiAmericanexpress,
   SiVenmo,

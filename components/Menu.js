@@ -101,7 +101,7 @@ const Menu = ({ Page }) => {
   const [menuItems, setMenuItems] = useState(Object.keys(dataLayout));
 
   return (
-    <div className="relative z-30 flex flex-row items-center justify-start w-full h-8 pb-3 mx-auto mt-6 border-b-2 slow border-c1">
+    <div className="relative  z-30 flex flex-row items-center justify-start w-full h-8 pb-3 mx-auto mt-6 border-b-2 slow border-c1">
       {/* <button
         onClick={() => onClick("c")}
         id="menuButton"

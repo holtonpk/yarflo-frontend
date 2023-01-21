@@ -183,15 +183,15 @@ export default function Home() {
         {/* <ViewProduct /> */}
 
         <Nav />
-        <div className="relative w-screen h-screen">
-          <div className="absolute flex flex-row items-center justify-between w-full pl-20 mt-20 overflow-hidden -translate-y-1/2 top-1/3 h-fit">
-            <div className="flex flex-col">
+        <div className="relative w-screen h-screen ">
+          <div className="absolute flex flex-row items-center justify-between w-full pl-20 mt-10 overflow-hidden -translate-y-1/2 top-1/3 h-fit">
+            <div className="flex items-start flex-col gap-5 ">
               <h1 className="text-left text-c1 text-8xl font-f1 ">
                 Reimagine Your Spring Style
               </h1>
-              <h2 className="flex flex-row items-center px-3 py-1 mt-3 text-4xl font-f2 text-c1 w-fit ">
-                Shop
-                <BsArrowRightShort className="w-16 h-16 fill-c1" />
+              <h2 className="flex border-2-c1 mt-4 border-2 flex-row py-2 items-center px-3  mt-3 text-2xl font-f2 text-c1 w-fit ">
+                SHOP NOW
+                {/* <BsArrowRightShort className="w-16 h-16 fill-c1" /> */}
               </h2>
             </div>
 
@@ -305,7 +305,7 @@ export default function Home() {
             </div>
           </div>
           <div className="float-right w-full bg-white ">
-            <div className="flex flex-col justify-between float-right w-1/2 py-6 bg-white">
+            <div className="flex gap-6 flex-col justify-between float-right w-1/2 py-6 bg-white">
               <ImgCard
                 image="/assets/Product_imgs/Wo311768/4_Wo311768.jpg"
                 product="Wo311768"
@@ -345,7 +345,7 @@ export default function Home() {
           </div>
           <div className="float-left w-full bg-white ">
             <div className="float-left w-1/2 py-6 bg-white ">
-              <div className="flex flex-col items-center justify-between mx-auto w-fit">
+              <div className="flex gap-6 flex-col items-center justify-between mx-auto w-fit">
                 <ImgCard
                   image="/assets/Product_imgs/Re672706/0_Re672706.jpg"
                   product="Re672706"

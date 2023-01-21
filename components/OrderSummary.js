@@ -9,9 +9,9 @@ import { parseCookies } from "../lib/parseCookies";
 import Cookie from "js-cookie";
 
 const OrderSummary = ({ page, dynamicShipping }) => {
-  console.log("dyn", dynamicShipping);
   const { cartTotal, items, removeItem } = useCart();
 
+  console.log("items", dynamicShipping);
   return (
     <div className="relative flex flex-col justify-start w-2/5 h-full px-4 mb-10 bg-white2 border-l-1 border-c3">
       <h1 className="pt-4 mb-4 text-3xl text-c1 font-f1">Order Summary</h1>

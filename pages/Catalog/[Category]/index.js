@@ -131,7 +131,7 @@ export default function catagory() {
       <Nav />
       {/* <h1 className="text-5xl text-center font-f1 text-c1">{Category}</h1> */}
 
-      <div className="relative flex flex-col h-full">
+      <div className="relative flex flex-col h-full ">
         <div className="relative w-full mx-auto overflow-hidden h-80 ">
           <Image
             src={"/assets/Categories/" + Category + ".jpg"}
@@ -156,5 +156,3 @@ export default function catagory() {
     </motion.div>
   );
 }
-
-

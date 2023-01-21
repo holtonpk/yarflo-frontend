@@ -10,9 +10,14 @@ import CheckoutHeader from "../../components/CheckoutHeader";
 
 const Information = () => {
   const [customerInfo, setCustomerInfo] = useState({});
+  const [dynamicShipping, setDynamicShipping] = useState(() =>
+    JSON.parse(Cookie.get("shippingMethod"))
+  );
 
   useEffect(() => {
     Cookie.set("customerInfo", JSON.stringify(customerInfo));
+
+    console.log(JSON.parse(Cookie.get("shippingMethod")));
   }, [customerInfo]);
 
   const validateEmail = () => {
@@ -294,7 +299,7 @@ const Information = () => {
             </h2>
           </div>
         </div>
-        <OrderSummary page="1" />
+        <OrderSummary page="1" dynamicShipping={dynamicShipping} />
       </div>
     </div>
   );

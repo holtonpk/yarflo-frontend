@@ -8,9 +8,28 @@ import { getProductData, moneyFormat } from "./logic";
 import Link from "next/link";
 
 import { useCart } from "react-use-cart";
+// import { futimes } from "fs";
 const CartPreview = () => {
   const { isEmpty, cartTotal, items, removeItem } = useCart();
   const [emptyCart, setEmptyCart] = useState(true);
+  const [checkoutLoading, setCheckoutLoading] = useState(false);
+  const [yourBagLoading, setYourBagLoading] = useState(false);
+
+  async function goToCheckout() {
+    setCheckoutLoading(true);
+    setTimeout(() => {
+      window.location.href = "/Checkout";
+      setCheckoutLoading(false);
+    }, 1000);
+  }
+
+  async function goToYourBag() {
+    setYourBagLoading(true);
+    setTimeout(() => {
+      window.location.href = "/Checkout";
+      setYourBagLoading(false);
+    }, 1000);
+  }
 
   useEffect(() => {
     setEmptyCart(isEmpty);
@@ -76,20 +95,21 @@ const CartPreview = () => {
             </h1>
           </div>
 
-          <Link href="/Checkout">
-            <a className="w-full">
-              <button className="w-full p-4 text-xl text-white rounded-full bg-c1 font-f1">
-                Go To Checkout
-              </button>
-            </a>
-          </Link>
-          <Link href="/Checkout">
-            <a className="w-full mt-3">
-              <button className="w-full p-4 text-xl text-white rounded-full bg-c3 font-f1">
-                Your Bag
-              </button>
-            </a>
-          </Link>
+          <button
+            onClick={goToCheckout}
+            className=" w-full p-4 text-xl text-white rounded-full bg-c1 font-f1"
+          >
+            {!checkoutLoading && "Go To Checkout"}
+            {checkoutLoading && <div className="load"></div>}
+          </button>
+
+          <button
+            onClick={goToYourBag}
+            className="w-full mt-3 p-4 text-xl text-white rounded-full bg-c3 font-f1"
+          >
+            {!yourBagLoading && "Your Bag"}
+            {yourBagLoading && <div className="load"></div>}
+          </button>
         </div>
       );
     }

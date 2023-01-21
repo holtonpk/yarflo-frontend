@@ -634,7 +634,7 @@ export default function catalog({ products, tags }) {
             </div>
           </div> */}
 
-          <div className="grid w-full grid-cols-3 gap-6 mx-6 h-fit">
+          <div className="grid w-full grid-cols-3 gap-6 mx-6 h-fit mb-6">
             {data.map((product) => (
               <div key={product.id}>
                 <Catalog
@@ -647,7 +647,11 @@ export default function catalog({ products, tags }) {
             ))}
           </div>
         </div>
-        <Carousel title="Just For You" data={getCarouselData(tags, 10)} />
+
+        <div className="my-3">
+          <Carousel title="Just For You" data={getCarouselData(tags, 10)} />
+        </div>
+
         <Footer />
       </div>
     </motion.div>

@@ -1,24 +1,22 @@
-import { moneyFormat } from "../../components/logic";
 import React, { useState, useEffect } from "react";
 import CheckoutStatus from "../../components/CheckoutStatus";
 import CheckoutDetails from "../../components/CheckoutDetails";
 import OrderSummary from "../../components/OrderSummary";
-import Image from "next/image";
 import { MdOutlineArrowBackIos } from "react-icons/md";
 import { SiFedex, SiUsps, SiUps } from "react-icons/si";
-import cookie from "cookie";
 import Link from "next/link";
 import Cookie from "js-cookie";
 import { useCart } from "react-use-cart";
 
 import CheckoutHeader from "../../components/CheckoutHeader";
 import { parseCookies } from "../../lib/parseCookies";
-const Information = ({ customerInfoProp }) => {
-  const [shippingMethod, setShippingMethod] = useState({
-    title: false,
-    rate: "Selected an option",
-  });
+const Information = ({ customerInfoProp, shippingMethodProp }) => {
+  const [shippingMethod, setShippingMethod] = useState(() =>
+    JSON.parse(shippingMethodProp)
+  );
   const { cartTotal } = useCart();
+
+  console.log(JSON.parse(shippingMethodProp));
 
   const [customerInfo, setCustomerInfo] = useState(() =>
     JSON.parse(customerInfoProp)
@@ -185,6 +183,7 @@ Information.getInitialProps = ({ req }) => {
 
   return {
     customerInfoProp: cookies.customerInfo,
+    shippingMethodProp: cookies.shippingMethod,
   };
 };
 

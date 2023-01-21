@@ -115,10 +115,10 @@ const Nav = () => {
               <a className="text-2xl cursor-pointer font-f2 text-c1 navLink">
                 Sale
               </a>
-              <button className="px-2 py-4 border-l-1 border-r-1 border-c3">
+              <button className="px-2 py-4  border-l-1 border-r-1 border-c3 ">
                 <svg
                   id="hamenu"
-                  className="ham ham6"
+                  className="ham ham6 fill-red-600"
                   viewBox="0 0 100 100"
                   width="80"
                   onClick={() => menuClick()}
@@ -137,10 +137,12 @@ const Nav = () => {
                   />
                 </svg>
               </button>
+              <Link href="/about">
+                <a className="text-2xl cursor-pointer font-f2 text-c1 navLink">
+                  Brand
+                </a>
+              </Link>
 
-              <a className="text-2xl cursor-pointer font-f2 text-c1 navLink">
-                Brand
-              </a>
               <button
                 onClick={() =>
                   document.getElementById("Search").classList.remove("hide")
